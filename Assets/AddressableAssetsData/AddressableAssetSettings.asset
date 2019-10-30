@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_DefaultGroup: 8a4156b7b4107534a943de7da7f066c4
+  m_BuildRemoteCatalog: 1
+  m_RemoteCatalogBuildPath:
+    m_Id: fbf9d7254cffdac44a2788df97bcf780
+  m_RemoteCatalogLoadPath:
+    m_Id: 12834402181ea6c4b82c94de98637edd
+  m_overridePlayerVersion: 
+  m_GroupAssets:
+  - {fileID: 11400000, guid: 50286da765e21ba4b861dd6f53dccf6f, type: 2}
+  - {fileID: 11400000, guid: c9cabfe915e90574e9b7fa869f9194f1, type: 2}
+  - {fileID: 11400000, guid: 370de95dc9188ce4ab7bb979896f714b, type: 2}
+  m_BuildSettings:
+    m_CompileScriptsInVirtualMode: 0
+    m_CleanupStreamingAssetsAfterBuilds: 1
+    m_LogResourceManagerExceptions: 1
+    m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_ProfileSettings:
+    m_Profiles:
+    - m_InheritedParent: 
+      m_Id: d5509c169a6768e4f979b437764db9a0
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: e424c781a324f8d4cbfba57e0f055daa
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: abfd1929d8c439343b5336072ca5f291
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 8b13e866b1d1aff469ceef9dc57d63df
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: fbf9d7254cffdac44a2788df97bcf780
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 12834402181ea6c4b82c94de98637edd
+        m_Value: https://datthinpone-video-contents.sgp1.digitaloceanspaces.com/Addressable/chitmoe/[BuildTarget]
+    - m_InheritedParent: 
+      m_Id: bbd5969f34d00f44c8dd17eacc5468b4
+      m_ProfileName: DevelopmentForWindows
+      m_Values:
+      - m_Id: e424c781a324f8d4cbfba57e0f055daa
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: abfd1929d8c439343b5336072ca5f291
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 8b13e866b1d1aff469ceef9dc57d63df
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: fbf9d7254cffdac44a2788df97bcf780
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 12834402181ea6c4b82c94de98637edd
+        m_Value: https://datthinpone-video-contents.sgp1.digitaloceanspaces.com/Addressable/chitmoe/[BuildTarget]
+    m_ProfileEntryNames:
+    - m_Id: e424c781a324f8d4cbfba57e0f055daa
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    - m_Id: abfd1929d8c439343b5336072ca5f291
+      m_Name: LocalBuildPath
+      m_InlineUsage: 0
+    - m_Id: 8b13e866b1d1aff469ceef9dc57d63df
+      m_Name: LocalLoadPath
+      m_InlineUsage: 0
+    - m_Id: fbf9d7254cffdac44a2788df97bcf780
+      m_Name: RemoteBuildPath
+      m_InlineUsage: 0
+    - m_Id: 12834402181ea6c4b82c94de98637edd
+      m_Name: RemoteLoadPath
+      m_InlineUsage: 0
+    m_ProfileVersion: 1
+  m_LabelTable:
+    m_LabelNames:
+    - default
+    - MyRemoteNumbers
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: 9726389733780dd4a9d9536ece112c87, type: 2}
+  m_InitializationObjects: []
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_ActivePlayerDataBuilderIndex: 3
+  m_DataBuilders:
+  - {fileID: 11400000, guid: 2199f531acdbdff4890bd4ca4bcd1931, type: 2}
+  - {fileID: 11400000, guid: e4a8c5e311f1dcf44acea5509c0978fd, type: 2}
+  - {fileID: 11400000, guid: 4d2adeeb6c013a347803e51c2b2e58e2, type: 2}
+  - {fileID: 11400000, guid: d1dd3cff5eb038d47aa592176f40958c, type: 2}
+  m_ActiveProfileId: bbd5969f34d00f44c8dd17eacc5468b4
+  m_HostingServicesManager:
+    m_HostingServiceInfos: []
+    m_Settings: {fileID: 11400000}
+    m_NextInstanceId: 0
+    m_RegisteredServiceTypeRefs: []
