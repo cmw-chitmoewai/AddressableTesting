@@ -342,3 +342,5 @@ MonoBehaviour:
     m_SubObjectName: 
   number:
     m_LabelString: MyRemoteNumbers
+  UiPrefab:
+    m_LabelString: RemoteUI

@@ -79,6 +79,7 @@ MonoBehaviour:
     m_LabelNames:
     - default
     - MyRemoteNumbers
+    - RemoteUI
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 9726389733780dd4a9d9536ece112c87, type: 2}
