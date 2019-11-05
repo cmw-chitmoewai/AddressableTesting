@@ -21,6 +21,10 @@ MonoBehaviour:
     m_Address: No1
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: b3a7954c191d6d6478ba9e74dd72536b
+    m_Address: datthinpone_remix
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 9e6bf6f468efb71439d0541bc8c62b64, type: 2}
   m_SchemaSet:

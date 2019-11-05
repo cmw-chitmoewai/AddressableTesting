@@ -9,7 +9,6 @@ using System;
 public class AddressableScript : MonoBehaviour
 {
 
-
 	//GameObject myGameObject;
 	public AssetReference localNo;
 
@@ -19,6 +18,7 @@ public class AddressableScript : MonoBehaviour
 
 	private List<IResourceLocation> remoteUI;
 	public AssetLabelReference UiPrefab;
+	
 
     // Start is called before the first frame update
     void Start()
@@ -35,26 +35,25 @@ public class AddressableScript : MonoBehaviour
 
 	}
 
-	private void OnSetUpDone(GameObject obj)
-	{
-
-	}
-
-	private void OnLoadDone(AsyncOperationHandle<IList<GameObject>> obj)
-	{
-		List<GameObject> objs = new List<GameObject>(obj.Result);
-
-		foreach (GameObject item in objs)
-		{
-			Addressables.InstantiateAsync(item, Vector3.zero, Quaternion.identity);
-		}
-	}
-
 	// Update is called once per frame
 	void Update()
     {
         
     }
+
+	private void MusicLocationLoaded(AsyncOperationHandle<IList<IResourceLocation>> obj)
+	{
+		remoteUI = new List<IResourceLocation>(obj.Result);
+
+		foreach (var item in remoteUI)
+		{
+			Addressables.InstantiateAsync(item, Vector3.zero, Quaternion.identity);
+		}
+
+
+		Debug.Log("Instantiate success");
+	}
+
 	public void DisplayNos()
 	{
 		localNo.InstantiateAsync(Vector3.zero, Quaternion.identity);

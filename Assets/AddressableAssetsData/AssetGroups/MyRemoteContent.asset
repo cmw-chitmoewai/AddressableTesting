@@ -37,6 +37,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - MyRemoteNumbers
+  - m_GUID: ce1b5ceee12bd9a4ca3baa290feb23de
+    m_Address: Assets/_AudioFolder
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MyRemoteNumbers
   - m_GUID: ded70bf1d7c0ac146a6ce26f3c9a536d
     m_Address: No4
     m_ReadOnly: 0
